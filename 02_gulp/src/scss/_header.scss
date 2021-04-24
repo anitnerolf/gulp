@@ -1,0 +1,30 @@
+$greenHeavy: #0d401b;
+$btnBg: #32a852;
+
+nav {
+    background-color: cornflowerblue;
+    color: $greenHeavy;
+    margin: 0 auto;
+}
+
+.main-nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    color: $greenHeavy;
+    transition: ease-in-out;
+}
+
+.btn {
+    background-color: $btnBg;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+}
